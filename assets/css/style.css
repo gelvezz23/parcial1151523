@@ -19,6 +19,7 @@
 }
 .inicio div p {
 	width: 300;
+	text-align: justify;
 	justify-content: center;
 	margin: 10px;
 }
@@ -30,11 +31,10 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 .arquitectura div {
 	align-items: center;
-	justify-content: center;
+
 	display: flex;
 	flex-direction: row;
 }
@@ -47,9 +47,48 @@
 }
 .arquitectura div p {
 	width: 300;
+	text-align: justify;
 	justify-content: center;
 	margin: 10px;
 }
 .arquitectura div img {
 	width: 100%;
+}
+
+footer {
+	width: 100%;
+	background-color: red;
+	height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+
+	align-self: flex-end;
+}
+
+.tecnologia {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.tecnologia div {
+	align-items: center;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.tecnologia div div {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.tecnologia div p {
+	width: 300px;
+	text-align: justify;
+	justify-content: center;
+	margin: 10px;
+}
+.tecnologia div img {
+	width: 200px;
 }

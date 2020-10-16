@@ -91,3 +91,50 @@ footer {
 	width: 400px;
 	margin: 20px;
 }
+
+.contactenos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.contactenos div {
+	display: flex;
+	flex-direction: column;
+}
+
+.contactenos div div {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.contactenos div p {
+	text-align: left;
+	justify-content: center;
+	margin: 20px;
+}
+.contactenos div img {
+	width: 400px;
+	margin: 20px;
+}
+.contactenos input {
+	width: 300px;
+	border: 2px solid black;
+	margin: 10px;
+	height: 30px;
+}
+.contactenos textarea {
+	width: 100%;
+	border: 2px solid black;
+	margin: 5px;
+	height: 180px;
+}
+.contactenos button {
+	width: 100%;
+	background: red;
+	color: white;
+	border: 0px;
+	border-radius: 5px;
+	margin: 10px;
+	height: 30px;
+}

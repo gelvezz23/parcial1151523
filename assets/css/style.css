@@ -62,7 +62,6 @@ footer {
 	width: 100%;
 	background-color: red;
 	height: 200px;
-
 	color: white;
 }
 footer div {
@@ -104,6 +103,7 @@ footer a {
 }
 
 .contactenos {
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -129,12 +129,12 @@ footer a {
 	margin: 20px;
 }
 .contactenos input {
-	width: 300px;
+	width: 400px;
 	border: 2px solid black;
 	margin: 10px;
 	height: 30px;
 }
-.contactenos textarea {
+textarea {
 	width: 100%;
 	border: 2px solid black;
 	margin: 5px;

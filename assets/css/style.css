@@ -5,3 +5,51 @@
 	padding: 0px;
 	font-family: 'Montserrat', sans-serif;
 }
+.inicio {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.inicio div {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.inicio div p {
+	width: 300;
+	justify-content: center;
+	margin: 10px;
+}
+.inicio div img {
+	width: 100%;
+}
+
+.arquitectura {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.arquitectura div {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.arquitectura div div {
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+.arquitectura div p {
+	width: 300;
+	justify-content: center;
+	margin: 10px;
+}
+.arquitectura div img {
+	width: 100%;
+}
